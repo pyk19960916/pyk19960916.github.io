@@ -4,8 +4,9 @@
 >
 > 微信公众号：桂木动漫
 >
-> **APP下载：<https://pan.quark.cn/s/8bba91831e0a>
-> 3000T资源	<https://pan.quark.cn/s/321885d794e8>**
+> APP下载：<https://pan.quark.cn/s/8bba91831e0a>
+> 
+> 3000T资源	<https://pan.quark.cn/s/321885d794e8>
 
 东京食尸鬼	<https://pan.quark.cn/s/9fe104e0a3bc>
 人渣的本愿	<https://pan.quark.cn/s/64bbf6f24c6e>
