@@ -86,7 +86,7 @@ body::before {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 350px) {
   html {
     font-size: 23px !important;
   }
