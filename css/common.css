@@ -1,0 +1,274 @@
+ul {
+    padding: 0
+}
+
+li {
+    color: #000;
+    list-style: none
+}
+
+html {
+    overflow-y: scroll
+}
+
+:root {
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+:root body {
+    position: absolute
+}
+
+body {
+    width: 100vw;
+    overflow: hidden;
+    font-size: 14px
+}
+
+table {
+    font-size: 14px
+}
+
+@media screen and (max-width: 512px) {
+    body {
+        font-size:13px
+    }
+
+    table {
+        font-size: 13px
+    }
+}
+
+/*è’™ç‰ˆ*/
+.mask {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: .4
+}
+
+/*å¼¹æ¡†*/
+.dialog_box {
+    display: none;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%,-50%);
+    z-index: 1001;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    -moz-border-radius: 25px
+}
+
+#dialog_title {
+    padding: 10px;
+    color: red
+}
+
+.nodata {
+    width: 100%;
+    height: 200%;
+    margin: 90px 0 0 0;
+    line-height: 100%;
+    text-align: center
+}
+
+.nodata p {
+    font-size: 24px;
+    color: #bbb
+}
+
+.user-img {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: #1c3062;
+    background-size: contain;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px
+}
+
+.title-me-answer {
+    font-size: 13px;
+    color: #145ccd;
+    padding: 2px 0 0 0
+}
+
+.message-icon {
+    font-size: 16px;
+    color: #a9a9a9
+}
+
+.message-icon-dot {
+    animation: message-icon-dot-a 5s infinite;
+    font-size: 16px;
+    color: #fff;
+    animation-duration: 1s
+}
+
+@keyframes message-icon-dot-a {
+    0% {
+        color: #fff
+    }
+
+    100% {
+        color: coral
+    }
+}
+
+.flink-item {
+    display: inline-block
+}
+
+.single-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.top_scroll {
+    bottom: 10px;
+    position: fixed;
+    right: 0;
+    z-index: 1000
+}
+
+.app-download-top {
+    display: none;
+    border-top: solid #999 1px;
+    background-color: #eee;
+    height: 54px;
+    position: fixed;
+    z-index: 1110;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 5px 5px 5px 10px
+}
+
+.app-download-top-p {
+    float: left;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    margin: 3px 0 0 10px;
+    width: 155px
+}
+
+.app-download-top-close {
+    margin-top: 10px;
+    width: 24px;
+    height: 24px;
+    float: left
+}
+
+.app-download-top-icon {
+    border-radius: 5px;
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-left: 10px
+}
+
+.app-download-top-open {
+    float: right;
+    margin: 5px 5px 0 0
+}
+
+.pc-top-adp {
+    max-width: 1024px;
+    height: 160px
+}
+
+.content-right-ad {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+    width: 180px;
+    height: 180px;
+    background-color: #f0f0f0;
+    border: 1px solid #eee
+}
+
+.left-couplet {
+    position: fixed;
+    bottom: auto;
+    top: 0;
+    width: 120px;
+    height: 600px;
+    z-index: 99999;
+    margin-top: 110px;
+    left: 20px
+}
+
+.right-couplet {
+    position: fixed;
+    bottom: auto;
+    top: 0;
+    width: 120px;
+    height: 600px;
+    z-index: 99999;
+    margin-top: 110px;
+    right: 20px
+}
+
+.block-top-item {
+    display: inline-block;
+    margin: 10px 2px 0 2px;
+    width: 200px;
+    height: 50px
+}
+
+@media screen and (max-width: 512px) {
+    .pc-top-adp {
+        display:none
+    }
+
+    .content-right {
+        display: none
+    }
+
+    .content-right-ad {
+        display: none
+    }
+
+    .right-couplet {
+        display: none
+    }
+
+    .left-couplet {
+        display: none
+    }
+
+    .block-top-item {
+        display: none
+    }
+}
+
+.btn-aa-pc {
+    display: inline-block
+}
+
+.btn-aa-phone {
+    display: none
+}
+
+@media screen and (max-width: 512px) {
+    .btn-aa-pc {
+        display:none
+    }
+
+    .btn-aa-phone {
+        display: inline-block
+    }
+}
